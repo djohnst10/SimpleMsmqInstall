@@ -1,0 +1,9 @@
+﻿<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+  <Package Name="SimpleMsmqInstall" Manufacturer="TODO Manufacturer" Version="1.0.0.0" UpgradeCode="657a2f7b-4ad2-43ac-b81c-88a8a3e41b3b">
+    <MajorUpgrade DowngradeErrorMessage="!(loc.DowngradeError)" />
+
+    <Feature Id="Main">
+      <ComponentGroupRef Id="ExampleComponents" />
+    </Feature>
+  </Package>
+</Wix>
